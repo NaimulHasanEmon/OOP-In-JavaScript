@@ -16,3 +16,6 @@ console.log(college.specialty.passRate);
 console.log(college.specialty.result.GPA);
 
 // You can change of update the value of the field if needed with the same calling process
+
+college.specialty.passRate = '98%'; //Pass Rate updated to 98
+console.log(college.specialty);
